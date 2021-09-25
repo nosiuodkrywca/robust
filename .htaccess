@@ -1,0 +1,37 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine on
+	
+	RewriteBase /
+	
+#	RewriteCond %{REQUEST_FILENAME} !-f
+#	RewriteCond %{REQUEST_FILENAME} !-d
+
+#	RewriteCond %{REQUEST_URI}
+
+#	RewriteCond %{REQUEST_URI} !^/index.php$
+
+
+	RewriteCond %{REQUEST_URI} !.*\.(js|css|jpg|png) 
+	
+	RewriteRule ^(.*)$ index.php [L,QSA]
+#	RewriteRule ^(.*php)$ index.php [L,QSA]
+#	RewriteRule ^(.*)$ /index.php?d=$1 [L]
+#	RewriteRule ^(.*)$ /index.php [L,QSA]
+#	RewriteRule ^(.*php)$ /index.php [L,QSA]
+	
+#	RewriteRule "\.(config)$" - [L,F]
+#	RewriteRule "\.(components)$" - [L,F]
+	
+	
+</IfModule>
+
+
+
+
+	
+RewriteCond %{HTTP_HOST}@@%{HTTP_REFERER} !^([^@]*)@@https?://\1/.*
+
+
+
+AddType application/x-httpd-php80 .php
