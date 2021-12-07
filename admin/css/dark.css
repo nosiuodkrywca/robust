@@ -1,0 +1,27 @@
+:root {
+	--main-bg-color: #eee;
+	--main-fg-color: #000;
+	--main-border-color: #999;
+	--main-element-color: #ccc;
+	
+	--accent-color-primary: #ddd;
+	--accent-color-secondary: #aaa;
+
+	--logo-dots-color: #888;
+	
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-element-color) !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent-color-secondary) !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--accent-color-primary) !important;
+}

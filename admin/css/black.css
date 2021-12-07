@@ -1,0 +1,16 @@
+:root {
+	--main-bg-color: #222;
+	--main-fg-color: #fff;
+	--main-border-color: #999;
+	--main-element-color: #333;
+	
+	--accent-color-primary: #444;
+	--accent-color-secondary: #777;
+
+	--logo-dots-color: #888;
+	
+}
+ 
+ input[type="radio"], input[type="checkbox"], input[type="range"] {
+	filter: invert(1) grayscale(1) !important;
+}

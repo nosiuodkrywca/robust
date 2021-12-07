@@ -1,0 +1,27 @@
+:root {
+	--main-bg-color: #fff;
+	--main-fg-color: #000;
+	--main-border-color: #999;
+	--main-element-color: #eee;
+	
+	--accent-color-primary: #ddd;
+	--accent-color-secondary: #aaa;
+
+	--logo-dots-color: #888;
+	
+	--card-success-primary: #0b4;
+	--card-success-secondary: #cfd;
+	
+	--card-info-primary: #47d;
+	--card-info-secondary: #cdf;
+	
+	--card-warning-primary: #e90;
+	--card-warning-secondary: #fea;
+	
+	--card-error-primary: #c20;
+	--card-error-secondary: #fcc;
+	
+	--card-debug-primary: #777;
+	--card-debug-secondary: #ddd;
+}
+ 

@@ -1,0 +1,32 @@
+{
+	"enabled": true,
+	"permissions": {
+		"permitted": ["admin"],
+		"restricted": []
+	},
+	"app": {
+		"default_location": {
+			"type": "text",
+			"name": "default_location",
+			"content": {
+				"label": "Default location",
+				"value": "Krakow, PL"
+			}
+		},
+		"units": {
+			"type": "radio",
+			"name": "units",
+			"content":
+				[{
+					"label": "°C",
+					"value": "celcius",
+					"selected": true
+				},
+				{
+					"label": "°F",
+					"value": "fahrenheit",
+					"selected": false
+				}]
+		}
+	}
+}
